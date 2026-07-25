@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex  {
@@ -14,10 +14,12 @@
 
 
 /*        NAVBAR          */
+
 #navbar {
     width: 100%;
     height: 5rem;
-    /* background-color: aquamarine; */
+    background-color: #f6eadc;
+    border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,13 +104,13 @@
 }
 
 #signin-but:hover {
-    background-color: #5e605f;
+    background-color: #434a52;
     color: antiquewhite;
-    box-shadow: 5px 5px 20px #5e605f;
+    box-shadow: 5px 5px 20px #434a52;
 }
 
 #register-but {
-    background-color: #5e605f;
+    background-color: #434a52;
     color: antiquewhite;
     transition: all 0.4s linear;
 }
@@ -116,7 +118,7 @@
 #register-but:hover {
     background: transparent;
     color: black;
-    box-shadow: 5px 5px 20px #5e605f;
+    box-shadow: 5px 5px 20px #434a52;
 }
 
 
@@ -137,4 +139,135 @@
     background: #000;
     border-radius: 10px;
     transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*        HERO        */
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: #f6eadc url("Assets/hero\ background.png") no-repeat;
+    background-position: right top;
+    background-size: 70%;
+}
+
+.hero-left {
+    height: 50%;
+    width: 30%;
+    /* background-color: beige; */
+    background: transparent;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.hero-left h3 {
+    width: 80%;
+    font-weight: 900;
+    color: #000;
+}
+
+.hero-left h1 {
+    font-weight: 900;
+    width: 80%;
+}
+
+.hero-left h1 span {
+    color: #5e605f;
+}
+
+
+.hero-left p {
+    font-weight: 700;
+    width: 75%;
+    color: grey;
+}
+
+
+.hero-left-buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-left-buttons button {
+    padding: 0.8rem 1rem;
+    /* border: 1px solid; */
+    border-radius: 15px;
+}
+
+#book-ride {
+    color: antiquewhite;
+    background-color: #434a52;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.4s linear;
+}
+
+#book-ride:hover {
+    background: transparent;
+    color: #434a52;
+    box-shadow: 5px 5px 20px #434a52;
+    border: none;
+    font-weight: 900;
+}
+
+#learn-more {
+    background: transparent;
+    color: #434a52;
+    font-weight: 900;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.4s linear;
+}
+
+#learn-more:hover {
+    color: #f6eadc;
+    background-color: #434a52;
+    box-shadow: 5px 5px 20px #434a52;
+    border: none;
+}
+
+
+
+#register-but {
+    background-color: #434a52;
+    color: antiquewhite;
+    transition: all 0.4s linear;
+}
+
+#register-but:hover {
+    background: transparent;
+    color: black;
+    box-shadow: 5px 5px 20px #434a52;
+}
+
+
+.hero-right {
+    height: 70%;
+    width: 55%;
+    /* background-color: beige; */
+    background: transparent;
+    /* border: 1px solid; */
+}
+
+
+.hero-right img {
+    height: 100%;
+    width: 100%;
 }

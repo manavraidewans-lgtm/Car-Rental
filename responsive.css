@@ -1,6 +1,11 @@
 /* ==========================================================   Large Desktop  ======================================= */
 @media (max-width: 1400px) {
 
+    .navbar-buttons button {
+        padding: 0.5rem 1rem;
+    }
+
+
 }
 
 
@@ -17,6 +22,22 @@
 @media (max-width: 1200px) {
 
 
+    .navbar-buttons button {
+        padding: 0.5rem 1rem;
+    }
+
+    .hero-left h3 {
+        width: 90%;
+    }
+    .hero-left h1 {
+        width: 90%;
+    }
+    .hero-left p {
+        width: 90%;
+    }
+    .hero-left-buttons {
+        width: 90%;
+    }
 }
 
 
@@ -30,6 +51,19 @@
 
 /* ==========================================================   Tablet ======================================= */
 @media (max-width: 992px) {
+
+    .navbar-buttons {
+        justify-content: start;
+    }
+
+    .navbar-buttons button {
+        padding: 0.5rem 1rem;
+    }
+    
+    .hero-right {
+        overflow: hidden;
+    }
+
 
 }
 
@@ -81,7 +115,7 @@
     }
 
     .navbar-buttons {
-        width: 30%;
+        width: 10%;
     }
 
     .hamburger {
@@ -105,6 +139,25 @@
     .about-left {
         width: 100%;
     }
+
+    #register-but {
+        padding: 0.5rem 1rem;
+    }
+
+    #hero {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .hero-left {
+        width: 60%;
+    }
+
+    .hero-right {
+        width: 80%;
+        overflow: hidden;
+    }
+
 }
 
 
@@ -173,12 +226,35 @@
         display: none;
     }
 
+    #register-but {
+        padding: 0.5rem 1rem;
+    }
+
     .hamburger{
         display:flex;
     }
 
-    .about-left {
-        width: 100%;
+    .hero-left {
+        width: 80%;
+    }
+
+    .hero-left h3 {
+        width: 80%;
+    }
+    
+    .hero-left h1 {
+        width: 80%;
+    }
+
+    .hero-left-buttons {
+        width: 80%;
+        justify-content: start;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .hero-right {
+        width: 90%;
     }
 
 
@@ -252,10 +328,22 @@
         display:flex;
     }
 
-    .about-left {
-        width: 100%;
+    .hero-left {
+        width: 80%;
     }
 
+    .hero-right {
+        width: 90%;
+    }
+
+    #register-but {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .hero-right {
+        width: 100%;
+        overflow: hidden;
+    }
 }
 
 
@@ -287,7 +375,7 @@
     }
 
     .navbar-buttons {
-        width: 30%;
+        width: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -336,4 +424,16 @@
     .about-left {
         width: 100%;
     }
+
+    #register-but {
+        padding: 0.3rem 0.6rem;
+    }
+    
+   
+
+    .hero-right {
+        overflow: hidden;
+        width: 100%;
+    }
+
 }
