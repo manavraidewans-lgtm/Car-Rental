@@ -145,7 +145,7 @@
         width: 80%;
     }
 
-    #hero {
+    #hero{
         width: 100%;
         flex-direction: column-reverse;
     }
@@ -159,6 +159,20 @@
         overflow: hidden;
     }
 
+    .booking-outer {
+        width: 95%;
+    }
+
+    .booking-contents {
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .booking-contents-cards {
+        height: 50%;
+        width: 45%;
+    }
 }
 
 
@@ -260,6 +274,27 @@
     }
 
 
+    .booking-outer {
+        width: 95%;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .booking-outer-heading {
+        margin-left: 2rem;
+    }
+
+    .booking-contents {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .booking-contents-cards {
+        height: 50%;
+        width: 75%;
+    }
+
 }
 
 
@@ -346,6 +381,11 @@
     .hero-right {
         width: 100%;
         overflow: hidden;
+    }
+
+    .booking-contents-cards {
+        height: 50%;
+        width: 85%;
     }
 }
 
