@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .flex  {
@@ -23,6 +24,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
 }
 
 .navbar-logo {
@@ -131,6 +135,7 @@
     justify-content: space-between;
     z-index: 1001;
     gap: 0.2rem;
+    
 }
 
 .hamburger span {
@@ -159,6 +164,7 @@
     background: #f6eadc url("Assets/hero\ background.png") no-repeat;
     background-position: right top;
     background-size: 70%;
+    overflow: hidden;
 }
 
 .hero-left {
@@ -216,7 +222,7 @@
     background-color: #434a52;
     font-size: 1rem;
     border: none;
-    transition: all 0.4s linear;
+    transition: all 0.9s linear;
 }
 
 #book-ride:hover {
@@ -233,7 +239,7 @@
     font-weight: 900;
     border: none;
     font-size: 1rem;
-    transition: all 0.4s linear;
+    transition: all 0.9s linear;
 }
 
 #learn-more:hover {
@@ -270,4 +276,16 @@
 .hero-right img {
     height: 100%;
     width: 100%;
+}
+
+
+
+
+
+/*        Services        */
+
+#services {
+    height: 100vh;
+    width: 100%;
+    background-color: #f6eadc;
 }

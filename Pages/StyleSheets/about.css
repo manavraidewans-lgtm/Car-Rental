@@ -1,10 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.flex  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*        NAVBAR          */
+
+#navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: #f6eadc;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar-logo {
+    width: 20%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: 50%;
+}
+
+.navbar-tittle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-tittle h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-tittle h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: grey;
+}
+
+
+
+
+.navbar-links {
+    height: 100%;
+    width: 45%;
+    /* background-color: royalblue; */
+}
+
+.navbar-links  ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-links ul li {
+    list-style: none;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+
+.navbar-buttons {
+    height: 100%;
+    width: 25%;
+    /* background-color: cadetblue; */
+    gap: 1rem;
+}
+
+.navbar-buttons button {
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#signin-but {
+    background: transparent;
+    transition: all 0.4s linear;
+}
+
+#signin-but:hover {
+    background-color: #434a52;
+    color: antiquewhite;
+    box-shadow: 5px 5px 20px #434a52;
+}
+
+#register-but {
+    background-color: #434a52;
+    color: antiquewhite;
+    transition: all 0.4s linear;
+}
+
+#register-but:hover {
+    background: transparent;
+    color: black;
+    box-shadow: 5px 5px 20px #434a52;
+}
+
+
+.hamburger {
+    display: none;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1001;
+    gap: 0.2rem;
+    
+}
+
+.hamburger span {
+    height: 5px;
+    width: 45%;
+    background: #000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================   Large Desktop  ======================================= */
 @media (max-width: 1400px) {
 
     .navbar-buttons button {
         padding: 0.5rem 1rem;
     }
-
 
 }
 
@@ -24,19 +180,6 @@
 
     .navbar-buttons button {
         padding: 0.5rem 1rem;
-    }
-
-    .hero-left h3 {
-        width: 90%;
-    }
-    .hero-left h1 {
-        width: 90%;
-    }
-    .hero-left p {
-        width: 90%;
-    }
-    .hero-left-buttons {
-        width: 90%;
     }
 }
 
@@ -59,12 +202,6 @@
     .navbar-buttons button {
         padding: 0.5rem 1rem;
     }
-    
-    .hero-right {
-        overflow: hidden;
-    }
-
-
 }
 
 
@@ -145,19 +282,6 @@
         width: 80%;
     }
 
-    #hero {
-        width: 100%;
-        flex-direction: column-reverse;
-    }
-
-    .hero-left {
-        width: 60%;
-    }
-
-    .hero-right {
-        width: 80%;
-        overflow: hidden;
-    }
 
 }
 
@@ -235,30 +359,6 @@
     .hamburger{
         display:flex;
     }
-
-    .hero-left {
-        width: 80%;
-    }
-
-    .hero-left h3 {
-        width: 80%;
-    }
-    
-    .hero-left h1 {
-        width: 80%;
-    }
-
-    .hero-left-buttons {
-        width: 80%;
-        justify-content: start;
-        align-items: center;
-        gap: 3rem;
-    }
-
-    .hero-right {
-        width: 90%;
-    }
-
 
 }
 
@@ -343,10 +443,7 @@
         width: 60%;
     }
 
-    .hero-right {
-        width: 100%;
-        overflow: hidden;
-    }
+   
 }
 
 
@@ -433,13 +530,5 @@
         padding: 0.3rem 0.6rem;
     }
     
-    #hero {
-        width: 100%;
-    }
-
-    .hero-right {
-        overflow: hidden;
-        width: 100%;
-    }
 
 }
