@@ -37,7 +37,8 @@ const cars = [
     transmission: "Manual",
     fuel: "Petrol",
     price: 100000,
-    image: "images/audi.png"
+    type:"Sports",
+    image: "Assets/Shelby.png"
   },
 
   {
@@ -45,11 +46,12 @@ const cars = [
     name: "VW Golf GTI",
     brand: "Volkswagen",
     year: 2020,
-    doors: "4/5",
+    doors: "2",
     transmission: "Automatic",
     fuel: "Diesel",
     price: 3500,
-    image: "images/golf.png"
+    type:"Sports Car",
+    image: "Assets/GTI.png"
   },
 
   {
@@ -61,7 +63,8 @@ const cars = [
     transmission: "Automatic",
     fuel: "Hybrid",
     price: 6000,
-    image: "images/camry.png"
+    type:"SUV",
+    image: "Assets/XUV 700.PNG"
   },
 
   {
@@ -73,7 +76,8 @@ const cars = [
     transmission: "Automatic",
     fuel: "Electronic",
     price: 70000,
-    image: "images/camry.png"
+    type:"Sports",
+    image: "Assets/Maserati.png"
   },
 
   {
@@ -82,10 +86,11 @@ const cars = [
     brand: "Maruti",
     year: 2025,
     doors: "4/5",
-    transmission: "Manual",
+    transmission: "Automatic",
     fuel: "Diesel",
     price: 3000,
-    image: "images/camry.png"
+    type:"Sedan",
+    image: "Assets/Swift.png"
   },
 
   {
@@ -97,7 +102,35 @@ const cars = [
     transmission: "Manual",
     fuel: "Diesel",
     price: 5000,
-    image: "images/camry.png"
-  }
+    type:"Sedan",
+    image: "Assets/Baleno.png"
+  },
+
+  {
+    id: 6,
+    name: "AUDI",
+    brand: "Audi",
+    year: 2021,
+    doors: "4/5",
+    transmission: "Automatic",
+    fuel: "Petrol",
+    price: 5000,
+    type:"Luxury",
+    image: "Assets/audi Q7.PNG"
+  },
 
 ];
+
+function showCar(id) {
+    const car = cars[id] ;
+      document.getElementById("car-image").src = car.image;
+      document.getElementById("Year").innerText = car.year;
+      document.getElementById("Brand").innerText = car.brand;
+      document.getElementById("transmission").innerText = car.transmission;
+      document.getElementById("Fuel").innerText = car.fuel;
+      document.getElementById("type").innerText = car.type;
+      document.getElementById("price").innerText = car.price;
+} 
+
+showCar(6);
+
