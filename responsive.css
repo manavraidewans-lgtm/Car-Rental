@@ -217,6 +217,46 @@
         display: flex;
     }
 
+    #Rent {
+        height: 200vh;
+        width: 100%;
+        margin-top: 12rem;
+    }
+
+    .rent-details {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .car-name {
+        width: 100%;
+    }
+
+    .car-image {
+        width: 70%;
+    }
+
+    .car-image img {
+        width: 100%;
+    }
+
+    .car-name button {
+        height: 20%;
+        width: 30%;
+    }
+
+    .car-details-outer {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
 }
 
 
@@ -360,6 +400,15 @@
         width: 90%;
     }
 
+    .car-image {
+        width: 100%;
+    }
+
+    .car-image img {
+        height: 80%;
+        width: 70%;
+    }
+
 }
 
 
@@ -462,6 +511,15 @@
     .info-head h1 {
         font-size: 1.5rem;
     }
+
+    .car-image {
+        width: 100%;
+    }
+
+    .car-image img {
+        height: 60%;
+        width: 80%;
+    }
 }
 
 
@@ -559,5 +617,32 @@
 
     .info-head h1 {
         font-size: 1.4rem;
+    }
+
+    .car-name {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .car-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .car-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .car-details-outer {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .car-details {
+        width: 100%;
     }
 }
