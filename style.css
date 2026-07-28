@@ -494,9 +494,7 @@ body {
     margin-top: 7rem;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .rent-outer {
@@ -798,4 +796,111 @@ body {
 .rate-client span {
     color: goldenrod;
     font-size: 1.6rem;
+}
+
+
+
+
+/*     Download   */
+#details-download {
+    height: 50vh;
+    width: 100%;
+    /* background-color: honeydew; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.details-outer {
+    width: 50%;
+    height: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details-details {
+    height: 70%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details-details h1 {
+    font-size: 2rem;
+    color: #000;
+    width: 100%;
+}
+
+.details-details p {
+    width: 100%;
+    color: #6d747b;
+    font-size: 1.2rem;
+}
+
+
+
+.details-button {
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(193, 149, 26); */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.details-button button {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #252525;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+
+.details-button button:hover {
+    box-shadow: 15px 15px 10px #898c8f;
+}
+
+.details-button button .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-button button .icon i {
+    font-size: 3.5rem;
+    color: #a8aba9;
+}
+
+
+.details-button button .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+#book {
+    font-size: 1rem;
+    color: #898c8f;
+}
+
+#best-price {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #f9e7d6;
 }

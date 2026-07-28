@@ -104,6 +104,21 @@
         width: 60%;
     }
 
+
+
+    #details-download {
+        margin-top: 35rem;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details-outer {
+        width: 60%;
+    }
+
 }
 
 
