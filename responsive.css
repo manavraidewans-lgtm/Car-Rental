@@ -73,6 +73,37 @@
         width: 90%;
     }
 
+    #testimonial {
+        height: 120vh;
+    }
+
+    .testimonial-outer {
+        width: 80%;
+    }
+
+    .testi-lower {
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .testi-lower-card {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    .client-review {
+        width: 60%;
+    }
+
+    .client-details {
+        width: 60%;
+    }
+
 }
 
 
@@ -257,6 +288,39 @@
         width: 80%;
     }
 
+    #testimonial {
+        margin-top: 8rem;
+    }
+
+    .testimonial-outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }   
+
+    .testi-upper {
+        width: 100%;
+    }
+
+    .testi-upper p {
+        width: 90%;
+    }
+
+    .client-review {
+        width: 100%;
+    }
+
+    .client-details {
+        width: 100%;
+    }
+
+    .photo {
+        height: 80%;
+        width: 35%;
+        border-radius: 50%;
+    }
 }
 
 
@@ -520,6 +584,55 @@
         height: 60%;
         width: 80%;
     }
+
+    .testi-upper {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+
+    .testi-upper h3 {
+        font-size: 1.3rem;
+    }
+
+    .testi-upper h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .testi-upper p {
+        text-align: center;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .testimonial-outer {
+        width: 95%;
+    } 
+
+    .photo {
+        height: 70%;
+        width: 45%;
+        border-radius: 50%;
+    }
+
+    .photo-1 {
+        height: 70%;
+        width: 45%;
+        border-radius: 50%;
+    }
+
+    .rate-client {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .rate-client i {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -645,4 +758,43 @@
     .car-details {
         width: 100%;
     }
+
+    .testi-upper {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+
+    .testi-upper h3 {
+        font-size: 1.1rem;
+    }
+
+    .testi-upper h1 {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    .testi-upper p {
+        text-align: center;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .testimonial-outer {
+        width: 100%;
+    }
+
+    .photo {
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+    } 
+
+    .photo-1 {
+        height: 50%;
+        width: 35%;
+        border-radius: 50%;
+    } 
 }

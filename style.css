@@ -549,7 +549,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .car-name button {
@@ -671,4 +671,131 @@ body {
     background-color: transparent;
     color: #000;
     box-shadow: 2px 2px 10px #434a52;
+}
+
+
+
+
+
+/*      Testimonial     */
+
+#testimonial {
+    margin-top: 8rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-outer {
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid; */
+}
+
+.testi-upper {
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.testi-upper p {
+    width: 60%;
+    text-align: center;
+    color: #6d747b;
+}
+
+.testi-lower {
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(41, 159, 60); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testi-lower-card {
+    height: 80%;
+    width: 45%;
+    /* background-color: ivory; */
+}
+
+.client-review {
+    height: 60%;
+    width: 100%;
+    /* background-color: olive; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.client-review p {
+    font-size: 1.5rem;
+    color: #434a52;
+}
+
+.client-details {
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(31, 144, 67); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.name-client  {
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.photo {
+    height: 80%;
+    width: 30%;
+    border-radius: 50%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/057/289/111/small/smiling-anime-girl-amidst-cherry-blossoms-in-warm-golden-sunlight-free-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgreen;
+}
+
+
+.photo-1 {
+    height: 80%;
+    width: 30%;
+    border-radius: 50%;
+    background-image: url(https://images.stockcake.com/public/a/6/d/a6d08fd6-5151-45f1-b8d4-fa8cb6e8f811_large/mischievous-boy-character-stockcake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgreen;
+}
+
+
+.rate-client {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(65, 169, 27); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate-client span {
+    color: goldenrod;
+    font-size: 1.6rem;
 }
