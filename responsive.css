@@ -119,6 +119,14 @@
         width: 60%;
     }
 
+    #footer {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer-cards-4 {
+        display: none;
+    }
 }
 
 
@@ -336,6 +344,16 @@
         width: 35%;
         border-radius: 50%;
     }
+
+    #footer {
+        height: 55vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-cards-2 {
+        display: none;
+    }
 }
 
 
@@ -488,6 +506,17 @@
         width: 70%;
     }
 
+    #footer {
+        height: 25vh;
+    }
+
+    .footer-cards-3 {
+        display: none;
+    }
+
+    .footer-cards-1 {
+        width: 100%;
+    }
 }
 
 
@@ -647,6 +676,10 @@
 
     .rate-client i {
         font-size: 1.3rem;
+    }
+
+    #footer {
+        height: 30vh;
     }
 }
 
