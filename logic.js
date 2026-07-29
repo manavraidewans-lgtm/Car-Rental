@@ -134,3 +134,20 @@ function showCar(id) {
 
 showCar(6);
 
+
+
+
+// Sign-in Button 
+
+const signIn = document.getElementById("signin-but");
+
+
+
+
+
+
+
+
+// Log-In Button
+
+const LoginIn = document.getElementById("register-but");
