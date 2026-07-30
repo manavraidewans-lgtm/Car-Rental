@@ -7,7 +7,7 @@ const cars = [
     doors: "2",
     transmission: "Manual",
     fuel: "Petrol",
-    price: 100000,
+    price: "50,000",
     type:"Sports",
     image: "../Assets/Shelby.png"
   },
@@ -20,7 +20,7 @@ const cars = [
     doors: "2",
     transmission: "Automatic",
     fuel: "Diesel",
-    price: 3500,
+    price: "3,500",
     type:"Sports Car",
     image: "../Assets/GTI.png"
   },
@@ -33,7 +33,7 @@ const cars = [
     doors: "6/7",
     transmission: "Automatic",
     fuel: "Hybrid",
-    price: 6000,
+    price: "6,000",
     type:"SUV",
     image: "../Assets/XUV 700.PNG"
   },
@@ -124,7 +124,7 @@ const cars = [
     doors: "4/5",
     transmission: "Manual",
     fuel: "Hybrid",
-    price: 8000,
+    price: "8,000",
     type:"SUV",
     image: "../Assets/Mazda.png"
   },

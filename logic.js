@@ -36,7 +36,7 @@ const cars = [
     doors: "2",
     transmission: "Manual",
     fuel: "Petrol",
-    price: 100000,
+    price: "₹ 50,000",
     type:"Sports",
     image: "Assets/Shelby.png"
   },

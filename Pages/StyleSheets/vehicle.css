@@ -178,28 +178,26 @@ body {
 }
 
 .card-heading p {
-    padding-left: 4rem;
+    padding-left: 5.5rem;
     font-size: 1rem;
     color: grey;
 }
 
 .card-heading h1 {
-    padding-left: 4rem;
+    padding-left: 5.5rem;
 }
 
 .search-sort {
     height: 6vh;
-    /* background-color: rgb(101, 69, 27); */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .search {
     height: 100%;
-    width: 55%;
+    width: 60%;
     /* background-color: dimgrey; */
 }
 
@@ -216,9 +214,10 @@ body {
 
 .sort {
     height: 100%;
-    width: 40%;
+    width: 30%;
     /* background-color: rgb(136, 20, 20); */
     justify-content: end;
+    padding-right: 1rem;
 }
 
 .sort select {
@@ -250,6 +249,8 @@ body {
     /* background-color: royalblue; */
     display: flex;
     margin-bottom: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .main-left {
@@ -353,8 +354,9 @@ body {
 
 .main-right {
     height: 100%;
-    width: 85%;
+    width: 75%;
     background-color: rgb(24, 37, 155);
+    border-radius: 15px;
 }
 
 
@@ -572,6 +574,25 @@ body {
     .footer-cards-4 {
         display: none;
     }
+
+    .main-left {
+        display: none;
+    }
+
+    .main-right {
+        width: 90%;
+    }
+
+    .sort {
+        width: 30%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .sort select {
+        width: 30%;
+    }
+
 }
 
 
@@ -661,6 +682,13 @@ body {
         display: none;
     }
 
+    .main-right {
+        width: 90%;
+    }
+
+    .sort select {
+        width: 35%;
+    }
 }
 
 
@@ -710,7 +738,6 @@ body {
         display: block;
         width: 15%;
         height: 100%;
-        /* background-color: rgb(195, 195, 81); */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -740,6 +767,20 @@ body {
 
     .footer-cards-1 {
         width: 100%;
+    }
+
+    .search input {
+        width: 70%;
+    }
+
+    .search {
+        justify-content: start;
+        padding-left: 2rem;
+    }
+
+
+    .sort select {
+        width: 45%;
     }
 }
 
@@ -826,6 +867,41 @@ body {
 
     #footer {
         height: 30vh;
+    }
+
+    #card-outer {
+        margin-top: 2rem;
+    }
+
+    .search-sort {
+        height: 15vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .search {
+        width: 90%;
+        display: flex;
+    }
+
+    .search input {
+        width: 80%;
+        height: 90%;
+    }
+
+    .sort {
+        width: 90%;
+        padding-left: 3rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .sort select {
+        width: 20%;
     }
 }
 
