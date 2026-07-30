@@ -882,6 +882,10 @@ body {
         gap: 2rem;
     }
 
+    .search-sort {
+        margin-top: 3rem;
+    }
+
     .search {
         width: 90%;
         display: flex;
@@ -891,6 +895,7 @@ body {
         width: 80%;
         height: 90%;
     }
+    
 
     .sort {
         width: 90%;
@@ -989,5 +994,19 @@ body {
         padding: 0.3rem 0.6rem;
     }
     
+    .card-heading {
+        height: 100%;
+        justify-content: start;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    .card-heading h1 {
+        padding-left: 0.6rem;
+    }
+
+    .card-heading p {
+        padding-left: 0.6rem;
+    }
 
 }
