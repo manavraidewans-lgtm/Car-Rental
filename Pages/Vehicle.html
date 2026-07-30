@@ -8,6 +8,11 @@
     
     <link rel="stylesheet" href="StyleSheets/about.csss">
     <link rel="icon" href="https://img.icons8.com/?size=100&id=111270&format=png&color=000000">
+
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
     
     <link rel="stylesheet" href="StyleSheets/vehicle.css">
     
@@ -47,10 +52,118 @@
     </section>
     
 
-<div class="content"></div>
+    <!--Select-->
+    <section id="card-outer">
+
+        <div class="card-heading">
+            <h1>Explore Our Fleet</h1>
+            <p>Premium cars for every journey.</p>
+        </div>
+
+        <div class="search-sort">
+
+            <div class="search flex">
+                <label for="search"></label>
+                <input type="text" id="search" name="search" placeholder="🔎 Search your favourite car">
+            </div>
+
+            <div class="sort flex">
+                <label for="sort-by">Sort by : &nbsp;</label>
+                <select name="sort-by" id="sort-by">
+                    <option id="empty">Choose</option>
+                    <option value="recently">Recently added</option>
+                    <option value="popular">Most Popular</option>
+                    <option value="high">High - Low</option>
+                    <option value="low">Low - High</option>
+                </select>
+            </div>
+        </div>
+    </section>
 
 
-    <!--Footer-->
+    <!--Main body-->
+    <div class="main-outer">
+        <div class="main-left">
+            <div class="filters">
+                <div class="heading flex">
+                    <h2>Filters</h2>
+                </div>
+                <div class="vehicles">
+                    <p id="vehicle-head">Vehicle Type</p>
+                    <div class="all">
+                        <input type="radio" id="all" name="all">
+                    <label for="all">All</label>
+                    </div>
+                    <div class="suv">
+                        <input type="radio" id="suv" name="suv">
+                    <label for="suv">Suv</label>
+                    </div>
+                    <div class="sedan">
+                        <input type="radio" id="sedan" name="sedan">
+                    <label for="sedan">Sedan</label>
+                    </div>
+                    <div class="sports">
+                        <input type="radio" id="sports" name="sports">
+                    <label for="sports">Sports</label>
+                    </div>
+                    <div class="luxury">
+                        <input type="radio" id="luxury" name="luxury">
+                    <label for="luxury">Luxury</label>
+                    </div>
+                </div>
+
+                <div class="fuel">
+                    <p id="vehicle-head">Fuel Type</p>
+                    <div class="petrol">
+                        <input type="radio" id="petrol" name="petrol">
+                    <label for="petrol">Petrol</label>
+                    </div>
+                    <div class="diesel">
+                        <input type="radio" id="diesel" name="diesel">
+                    <label for="diesel">Diesel</label>
+                    </div>
+                    <div class="hybrid">
+                        <input type="radio" id="hybrid" name="hybrid">
+                    <label for="hybrid">Hybrid</label>
+                    </div>
+                    <div class="electric">
+                        <input type="radio" id="electric" name="electric">
+                    <label for="electric">Electric</label>
+                    </div>
+                </div>
+
+                <div class="seats">
+                    <p id="vehicle-head">Seats</p>
+                    <div class="2">
+                        <input type="radio" id="2" name="2">
+                    <label for="2">2</label>
+                    </div>
+                    <div class="4">
+                        <input type="radio" id="4" name="4">
+                    <label for="4">4</label>
+                    </div>
+                    <div class="6">
+                        <input type="radio" id="6" name="6">
+                    <label for="6">6</label>
+                    </div>
+                </div>
+
+                <div class="reset-button flex">
+                    <button>
+                        <i class="ri-loop-left-line"></i>
+                        Reset Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main-right"></div>
+    </div>
+
+
+
+
+    
+    <!-- Footer -->
     <section id="footer">
         <div class="footer-contents">
             <!--Card 1-->
@@ -91,9 +204,13 @@
         </div>
     </section>
 
+
     
 
+    
+    
 
+    <script src="../logic.js"></script>
     <script src="Logic/vehicles.js"></script>
 </body>
 </html>

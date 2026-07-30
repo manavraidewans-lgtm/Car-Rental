@@ -22,7 +22,7 @@ const cars = [
     fuel: "Diesel",
     price: 3500,
     type:"Sports Car",
-    image: "Assets/GTI.png"
+    image: "../Assets/GTI.png"
   },
 
   {
@@ -35,7 +35,7 @@ const cars = [
     fuel: "Hybrid",
     price: 6000,
     type:"SUV",
-    image: "Assets/XUV 700.PNG"
+    image: "../Assets/XUV 700.PNG"
   },
 
   {
@@ -48,7 +48,7 @@ const cars = [
     fuel: "Electronic",
     price: 70000,
     type:"Sports",
-    image: "Assets/Maserati.png"
+    image: "../Assets/Maserati.png"
   },
 
   {
@@ -61,7 +61,7 @@ const cars = [
     fuel: "Diesel",
     price: 3000,
     type:"Sedan",
-    image: "Assets/Swift.png"
+    image: "../Assets/Swift.png"
   },
 
   {
@@ -74,7 +74,7 @@ const cars = [
     fuel: "Diesel",
     price: 5000,
     type:"Sedan",
-    image: "Assets/Baleno.png"
+    image:"../Assets/Baleno.png"
   },
 
   {
@@ -87,7 +87,7 @@ const cars = [
     fuel: "Petrol",
     price: 5000,
     type:"Luxury",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/audi Q7.PNG"
   },
 
   {
@@ -100,7 +100,7 @@ const cars = [
     fuel: "Hybrid",
     price: 1000,
     type:"Seadn",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/polo.png"
   },
 
   {
@@ -113,7 +113,7 @@ const cars = [
     fuel: "Diesel",
     price: 3000,
     type:"Seadn",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/Breeza.png"
   },
 
   {
@@ -126,7 +126,7 @@ const cars = [
     fuel: "Hybrid",
     price: 8000,
     type:"SUV",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/Mazda.png"
   },
 
   {
@@ -139,7 +139,7 @@ const cars = [
     fuel: "Petrol",
     price: 2000,
     type:"SUV",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/korando.png"
   },
 
   {
@@ -152,7 +152,7 @@ const cars = [
     fuel: "Petrol",
     price: 9000,
     type:"Sports",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/Mustang.png"
   },
   
 
@@ -166,7 +166,7 @@ const cars = [
     fuel: "Diesel",
     price: 10000,
     type:"Luxury",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/RR.png"
   },
 
   {
@@ -179,7 +179,7 @@ const cars = [
     fuel: "Petrol",
     price: 12000,
     type:"Luxury",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/Mayback"
   },
 
   {
@@ -192,7 +192,7 @@ const cars = [
     fuel: "Diesel",
     price: 4000,
     type:"Sedan",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/Hector.png"
   },
 
   {
@@ -205,7 +205,22 @@ const cars = [
     fuel: "Petrol",
     price: 5000,
     type:"Sedan",
-    image: "Assets/audi Q7.PNG"
+    image: "../Assets/BYD"
   },
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
