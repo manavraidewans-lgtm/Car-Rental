@@ -244,27 +244,27 @@ body {
 
 .main-outer {
     margin-top: 2rem;
-    height: 100vh;
     width: 100%;
     /* background-color: royalblue; */
     display: flex;
     margin-bottom: 5rem;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
 .main-left {
-    height: 100%;
     width: 15%;
+    min-height: 0;
     /* background-color: limegreen; */
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    height: calc(100vh - 14rem);
 }
 
 .filters {
-    height: 85%;
+    height: 100%;
     width: 90%;
     /* background-color: rgb(217, 152, 240); */
     display: flex;
@@ -274,6 +274,10 @@ body {
     border: 1px solid #6d747b;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.filters {
+    overflow-y: auto;
 }
 
 .heading {
@@ -353,11 +357,118 @@ body {
 
 
 .main-right {
-    height: 100%;
-    width: 75%;
-    background-color: rgb(24, 37, 155);
+    width: 80%;
+    /* background-color: rgb(24, 37, 155); */
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1.5rem;
+    max-height: calc(100vh - 14rem);
+    min-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
+
+.card {
+    height: 25rem;
+    width: 20rem;
+    background-color: #eccfb4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0.6rem;
+    gap: 1rem;
+}
+
+.card-img {
+    height: 47%;
+    width: 100%;
+    background-image: url(../../Assets/Mustang.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.card-img button {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.card-img button i {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: grey;
+}
+
+
+.card-details {
+    height: 47%;
+    width: 100%;
+    background-color: rgb(45, 173, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.details-up {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(213, 142, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-up h3 {
+    padding: 0.5rem;
+}
+
+
+.details-down {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(213, 142, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-down p {
+    padding: 0.5rem;
+}
+
+
+.details-more {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(213, 142, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-more button {
+    height: 60%;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
 
 
 
@@ -687,7 +798,7 @@ body {
     }
 
     .sort select {
-        width: 35%;
+        width: 40%;
     }
 }
 
@@ -778,9 +889,12 @@ body {
         padding-left: 2rem;
     }
 
+    .sort {
+        width:35%;
+    }
 
     .sort select {
-        width: 45%;
+        width: 50%;
     }
 }
 
@@ -906,7 +1020,7 @@ body {
     }
 
     .sort select {
-        width: 20%;
+        width: 30%;
     }
 }
 
@@ -1010,3 +1124,6 @@ body {
     }
 
 }
+
+
+

@@ -7,7 +7,7 @@ const cars = [
     doors: "2",
     transmission: "Manual",
     fuel: "Petrol",
-    price: "50,000",
+    price: 100000,
     type:"Sports",
     image: "../Assets/Shelby.png"
   },
@@ -20,7 +20,7 @@ const cars = [
     doors: "2",
     transmission: "Automatic",
     fuel: "Diesel",
-    price: "3,500",
+    price: 3500,
     type:"Sports Car",
     image: "../Assets/GTI.png"
   },
@@ -33,7 +33,7 @@ const cars = [
     doors: "6/7",
     transmission: "Automatic",
     fuel: "Hybrid",
-    price: "6,000",
+    price: 6000,
     type:"SUV",
     image: "../Assets/XUV 700.PNG"
   },
@@ -209,6 +209,11 @@ const cars = [
   },
 
 ];
+
+
+const container = document.getElementsByClassName("main-right");
+
+
 
 
 
