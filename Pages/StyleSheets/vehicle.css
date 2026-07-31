@@ -14,6 +14,10 @@
 body {
     background-color: #f9e7d6;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 5rem;
+    box-sizing: border-box;
 }
 
 
@@ -27,7 +31,11 @@ body {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    background: transparent;
+    background-color: #f9e7d6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .content {
@@ -243,24 +251,23 @@ body {
 /*      Main    Body        */
 
 .main-outer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
-    /* background-color: royalblue; */
     display: flex;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     align-items: flex-start;
     justify-content: space-evenly;
+    min-height: 0;
 }
 
 .main-left {
     width: 15%;
     min-height: 0;
-    /* background-color: limegreen; */
     display: flex;
     justify-content: start;
     align-items: flex-start;
     flex-direction: column;
-    height: calc(100vh - 14rem);
+    height: auto;
 }
 
 .filters {
@@ -358,16 +365,16 @@ body {
 
 .main-right {
     width: 80%;
-    /* background-color: rgb(24, 37, 155); */
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
     gap: 1.5rem;
-    max-height: calc(100vh - 14rem);
+    max-height: calc(100vh - 13rem);
     min-height: 400px;
     overflow-y: auto;
-    scrollbar-width: none;
+    scrollbar-width: thin;
+    scrollbar-color: #c7a889 transparent;
 }
 
 .card {
@@ -507,13 +514,12 @@ body {
     margin-bottom: 1rem;
     height: auto;
     width: 100%;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* background-color: #ead2bc; */
     background: transparent;
+    padding-top: 1rem;
 }
 
 .footer-contents {

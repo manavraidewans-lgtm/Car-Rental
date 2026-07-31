@@ -1,4 +1,6 @@
-const cars = [
+const { createElement } = require("react");
+
+const Cardcars = [
   {
     id: 0,
     name: "Shelby",
@@ -209,10 +211,6 @@ const cars = [
   },
 
 ];
-
-
-const container = document.getElementsByClassName("main-right");
-
 
 
 
