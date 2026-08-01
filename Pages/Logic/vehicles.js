@@ -263,7 +263,10 @@ Cardcars.forEach((car) => {
             </div>
 
             <div class="details-down">
-                <p>${car.type}</p>
+                <p>${car.type} • ${car.transmission}</p>
+                <button id="fav">
+                <i class="ri-poker-hearts-line"></i>
+            </button>
             </div>
 
             <div class="details-more">
