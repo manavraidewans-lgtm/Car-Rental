@@ -175,11 +175,9 @@ body {
 .hero-inside {
     height: 85%;
     width: 90%;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
     align-items: end;
-    flex-wrap: wrap;
 }
 
 
@@ -254,6 +252,12 @@ body {
 .hero-left-con p {
     color: grey;
 }
+
+
+
+
+
+
 
 
 
@@ -651,6 +655,15 @@ body {
     .footer-cards-1 {
         width: 100%;
     }
+
+    .hero-inside {
+        overflow: visible;
+        flex-direction: column-reverse;
+    }
+
+    .hero-left {
+        width: 90%;
+    }
 }
 
 
@@ -700,6 +713,9 @@ body {
     }
 
     .navbar-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 40%;
     }
 
@@ -736,6 +752,17 @@ body {
 
     #footer {
         height: 30vh;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
