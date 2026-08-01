@@ -277,7 +277,7 @@ body {
     justify-content: space-between;
     min-height: 0;
     flex: 1;
-    overflow: hidden;
+    overflow:visible;
     padding: 0.2rem 0 0.75rem;
     box-sizing: border-box;
     gap: 1rem;
@@ -394,11 +394,9 @@ body {
     align-content: start;
     padding: 1rem;
     gap: 1rem;
-    height: 100%;
-    max-height: 100%;
-    min-height: 0;
+    height:calc(100vh - 10rem);
     overflow-y: auto;
-    overflow-x: hidden;
+    /* overflow-x: auto; */
     scrollbar-width: thin;
     scrollbar-color: #c7a889 transparent;
     background: rgba(255, 255, 255, 0.35);
