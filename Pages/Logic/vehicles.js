@@ -1,5 +1,3 @@
-const { createElement } = require("react");
-
 const Cardcars = [
   {
     id: 0,
@@ -126,7 +124,7 @@ const Cardcars = [
     doors: "4/5",
     transmission: "Manual",
     fuel: "Hybrid",
-    price: "8,000",
+    price: 8000,
     type:"SUV",
     image: "../Assets/Mazda.png"
   },
@@ -134,7 +132,7 @@ const Cardcars = [
   {
     id: 10,
     name: "Korando",
-    brand: "korando",
+    brand: "KK",
     year: 2018,
     doors: "6/7",
     transmission: "Automatic",
@@ -213,7 +211,21 @@ const Cardcars = [
 ];
 
 
+const container = document.querySelector(".main-right");
 
+function carsCC (Carss ) {
+  Cardcars.forEach( (cars) => {
+
+  const card = document.createElement("div");
+
+  card.classList.add = "card";
+
+
+  container.appendChild(card);
+})
+
+console.log(Carss);
+}
 
 
 
