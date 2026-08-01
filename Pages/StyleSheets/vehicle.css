@@ -35,7 +35,7 @@ body {
     align-items: center;
     overflow: hidden;
     background: rgba(249, 231, 214, 0.95);
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     position: fixed;
     top: 0;
     left: 0;
@@ -494,6 +494,7 @@ body {
 
 .details-up h3 {
     padding: 0.5rem;
+    font-size: 1rem;
 }
 
 
@@ -508,8 +509,27 @@ body {
 }
 
 .details-down p {
-    padding: 0.5rem;
+    padding: 0.9rem;
+    font-size: 0.8rem;
 }
+
+.details-down button {
+    margin-right: 1rem;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    transition: all 0.4s linear;
+}
+
+.details-down button:hover {
+    font-size: 1.6rem;
+    transform: rotate(-19deg);
+}
+
+
 
 
 .details-more {
