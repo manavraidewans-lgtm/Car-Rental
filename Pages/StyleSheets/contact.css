@@ -260,14 +260,137 @@ body {
 
 
 
+/*          COntact Info        */
+
+#Contact-info {
+    height: 80vh;
+    width: 100%;
+    /* background-color: #6d747b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.info-left {
+    height: 90%;
+    width: 33%;
+    /* background-color: rgb(70, 19, 19); */
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.info-left-headding {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+.info-left-card-outer {
+    height: 85%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+
+
+.card {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightpink; */
+    padding: 0.5rem;
+}
+
+.card-btn {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn button {
+    padding: 1rem;
+    background: transparent;
+    border: none;
+}
+
+.card-btn button i {
+    font-size: 3rem;
+    color: #eaaf6b;
+}
+
+.card-details {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.card-details h3 {
+    /* text-align: center; */
+    font-weight: 800;
+}
+
+.card-details p {
+    color: grey;
+}
+
+
+
+.info-right {
+    height: 90%;
+    width: 63%;
+    background-color: orchid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*          FOOTER          */
 #footer {
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-bottom: 1rem;
-    height: 25vh;
+    height: 28vh;
     width: 100%;
     /* background-color: aquamarine; */
     display: flex;
@@ -446,11 +569,27 @@ body {
     }
 
     #hero  {
+        height: 90vh;
         width: 100%;
     }
 
     .hero-inside {
         width: 100%;
+    }
+
+
+    #Contact-info {
+        height: 100vh;
+    }
+
+
+    #footer {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .footer-cards-3 {
+        display: none;
     }
 }
 
@@ -485,6 +624,28 @@ body {
 
     .hero-butt {
         gap: 1rem;
+    }
+
+    .hero-right {
+        display: none;
+    }
+    
+    #Contact-info {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-left {
+        width: 60%;
+    }
+
+    .info-right {
+        width: 90%;
+    }
+
+    #footer {
+        display: none;
     }
 }
 
@@ -565,13 +726,12 @@ body {
         padding: 0.5rem 1rem;
         width: 80%;
     }
-    #footer {
-        height: 55vh;
-        display: flex;
-        justify-content: space-evenly;
-    }
 
-    .footer-cards-2 {
+    .info-right {
+        width: 95%;
+    }
+    
+    #footer {
         display: none;
     }
 
@@ -664,6 +824,14 @@ body {
     .hero-left {
         width: 90%;
     }
+
+    .info-left {
+        width: 80%;
+    }
+
+    .info-right {
+        width: 100%;
+    }
 }
 
 
@@ -750,19 +918,16 @@ body {
         width: 60%;
     }
 
-    #footer {
-        height: 30vh;
-    }
-
     .hero-right {
         display: none;
     }
 
     .hero-left {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    }
+    
+    #footer {
+        display: none;
     }
 }
 
