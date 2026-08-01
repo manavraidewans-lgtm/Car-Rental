@@ -1,3 +1,34 @@
+// Hamburger //
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".navbar-links");
+  const navItems = document.querySelectorAll(".navbar-links ul li a");
+
+  if (!hamburger || !navLinks) return;
+
+  const toggleMenu = () => {
+    hamburger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+  };
+
+  hamburger.addEventListener("click", toggleMenu);
+
+  navItems.forEach((link) => {
+    link.addEventListener("click", () => {
+      hamburger.classList.remove("active");
+      navLinks.classList.remove("active");
+    });
+  });
+});
+
+
+
+
+
+
+
+ // Cards //
 const Cardcars = [
   {
     id: 0,
@@ -179,7 +210,7 @@ const Cardcars = [
     fuel: "Petrol",
     price: 12000,
     type:"Luxury",
-    image: "../Assets/Mayback"
+    image: "../Assets/Mayback.png"
   },
 
   {
@@ -205,7 +236,7 @@ const Cardcars = [
     fuel: "Petrol",
     price: 5000,
     type:"Sedan",
-    image: "../Assets/BYD"
+    image: "../Assets/BYD.png"
   },
 
 ];
@@ -213,20 +244,37 @@ const Cardcars = [
 
 const container = document.querySelector(".main-right");
 
-function carsCC (Carss ) {
-  Cardcars.forEach( (cars) => {
+Cardcars.forEach((car) => {
 
-  const card = document.createElement("div");
+    const card = document.createElement("div");
 
-  card.classList.add = "card";
+    card.classList.add("card");
 
+    card.innerHTML = `
+        <div class="card-img">
+            <img src="${car.image}" alt="${car.name}">
+        </div>
 
-  container.appendChild(card);
-})
+        <div class="card-details">
 
-console.log(Carss);
-}
+            <div class="details-up">
+                <h3>${car.name}</h3>
+                <h3>₹${car.price}/- Day</h3>
+            </div>
 
+            <div class="details-down">
+                <p>${car.type}</p>
+            </div>
+
+            <div class="details-more">
+                <button class="view-details">View Details</button>
+            </div>
+
+        </div>
+    `;
+
+    container.appendChild(card);
+});
 
 
 
