@@ -120,13 +120,9 @@
     }
 
     #footer {
-        height: 50vh;
-        width: 100%;
+       display: none;
     }
 
-    .footer-cards-4 {
-        display: none;
-    }
 }
 
 
@@ -346,12 +342,6 @@
     }
 
     #footer {
-        height: 55vh;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .footer-cards-2 {
         display: none;
     }
 }
@@ -507,15 +497,7 @@
     }
 
     #footer {
-        height: 25vh;
-    }
-
-    .footer-cards-3 {
         display: none;
-    }
-
-    .footer-cards-1 {
-        width: 100%;
     }
 }
 
@@ -682,7 +664,7 @@
     }
 
     #footer {
-        height: 30vh;
+        display: none;
     }
 }
 
@@ -848,4 +830,8 @@
         width: 35%;
         border-radius: 50%;
     } 
+    
+    #footer {
+        display: none;
+    }
 }

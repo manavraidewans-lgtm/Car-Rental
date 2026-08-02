@@ -959,6 +959,10 @@ form {
         flex-direction: column;
         width: 100%;
     } 
+    
+    #footer {
+        display: none;
+    }
 }
 
 
