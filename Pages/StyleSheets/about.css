@@ -266,6 +266,132 @@ body {
 
 
 
+/*      WHO         */    
+
+#who {
+    margin-top: 3rem;
+    height: 50vh;
+    width: 100%;
+    /* background-color: moccasin; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.who-left {
+    height: 100%;
+    width: 40%;
+    /* background-color: lawngreen; */
+    background-image: url(../../Assets/Mayback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.who-right {
+    height: 100%;
+    width: 55%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.who-right h3 {
+    padding: 1rem;
+    color: grey;
+    font-weight: 900;
+    width: 50%;
+}
+
+
+.who-right h2 {
+    padding: 1rem;
+    /* color: grey; */
+    /* font-weight: 900; */
+    width: 70%;
+}
+
+.who-right p {
+    padding: 1rem;
+    color: grey;
+    /* font-weight: 900; */
+    width: 70%;
+}
+
+.who-but {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 5rem;
+}
+
+.card-who {
+    height: 5rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(171, 109, 27); */
+}
+
+.card-who-r {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-who-r i {
+    font-size: 2rem;
+    background-color: #7d807e;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #f9e7d6;
+    font-weight: 900;
+}
+
+.card-who-l {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.card-who-l p span {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-who-l p {
+    color: #5e605f;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
