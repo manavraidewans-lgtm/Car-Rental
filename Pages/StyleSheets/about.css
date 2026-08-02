@@ -384,10 +384,80 @@ body {
 
 
 
+/*      why     */
 
+#why-choose {
+    margin-top: 5rem;
+    height: 50vh;
+    width: 100%;
+    /* background-color: indianred; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
 
+.why-first ,
+.why-second {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.why-third {
+    height: 70%;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.whycard {
+    height: 100%;
+    width: 20%;
+    background-color: #f4d7bd;
+    border: 0.5px solid #434a52;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+    transition: all 0.5s linear;
+}
+
+.whycard:hover {
+    transform: translateY(-13px);
+}
+
+.whycard i {
+    font-size: 3rem;
+    padding: 0.8rem;
+    background-color: #7d807e;
+    color: #f9e7d6;
+    font-weight: 9000;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+}
+
+.whycard i:hover {
+    transform: rotate(-20deg);
+}
+
+.whycard h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.whycard p {
+    text-align: center;
+    color: grey;
+}
 
 
 
