@@ -598,6 +598,79 @@ body {
 
 
 
+
+/*          SIGN IN OPEN        */
+
+
+.sign-in-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transition: all 0.3s linear;
+    z-index: -1;
+
+    background-color: #434a52;
+    backdrop-filter: blur(10px);
+}
+
+.sign-in-outer.open {
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+
+
+.register-in-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transition: all 0.3s linear;
+    z-index: -1;
+
+    background-color: #434a52;
+    backdrop-filter: blur(10px);
+}
+
+.register-in-outer.open {
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================   Large Desktop  ======================================= */
 @media (max-width: 1400px) {
 

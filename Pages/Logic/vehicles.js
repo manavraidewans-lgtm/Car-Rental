@@ -282,6 +282,38 @@ Cardcars.forEach((car) => {
 
 
 
+// Login  button // 
+
+const openBtn = document.getElementById("signin-but");
+const closeBtn= document.getElementById("cut-close");
+const outerDiv = document.getElementById("sigin-popup");
+
+openBtn.addEventListener("click" , () => {
+      outerDiv.classList.add("open");
+});
+
+closeBtn.addEventListener("click", () => {
+      outerDiv.classList.remove("open");
+});
+
+
+
+
+// register //
+const regopen = document.getElementById("register-but");
+const regouter = document.getElementById("register-popup");
+const regClose = document.getElementById("close-reg");
+
+regopen.addEventListener("click" , () => {
+  regouter.classList.add("open");
+});
+
+regClose.addEventListener("click", () => {
+  regouter.classList.remove("open");
+})
+
+
+
 
 
 
