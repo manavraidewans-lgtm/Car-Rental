@@ -763,15 +763,6 @@ body {
         padding: 0.5rem 1rem;
     }
 
-     #footer {
-        height: 50vh;
-        width: 100%;
-    }
-
-    .footer-cards-4 {
-        display: none;
-    }
-
     .main-left {
         display: none;
     }
@@ -788,6 +779,10 @@ body {
 
     .sort select {
         width: 30%;
+    }
+
+    #footer {
+        display: none;
     }
 
 }
@@ -886,6 +881,10 @@ body {
     .sort select {
         width: 40%;
     }
+
+    #footer {
+        display: none;
+    }
 }
 
 
@@ -953,19 +952,6 @@ body {
         display:flex;
     }
 
-
-    #footer {
-        height: 25vh;
-    }
-
-    .footer-cards-3 {
-        display: none;
-    }
-
-    .footer-cards-1 {
-        width: 100%;
-    }
-
     .search input {
         width: 70%;
     }
@@ -981,6 +967,10 @@ body {
 
     .sort select {
         width: 50%;
+    }
+
+    #footer {
+        display: none;
     }
 }
 
@@ -1069,7 +1059,7 @@ body {
     }
 
     #footer {
-        height: 30vh;
+        display: none;
     }
 
     #card-outer {
@@ -1210,6 +1200,10 @@ body {
 
     .card-heading p {
         padding-left: 0.6rem;
+    }
+    
+    #footer {
+        display: none;
     }
 
 }
