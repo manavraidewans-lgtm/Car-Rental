@@ -40,8 +40,8 @@
             </ul>
         </div>
         <div class="navbar-buttons flex">
-            <button id="signin-but">Sign In</button>
-            <button id="register-but">Log In</button>
+            <button id="signin-but">Login</button>
+            <button id="register-but">Signup</button>
         </div>
         <div class="hamburger">
             <span></span>
@@ -55,10 +55,33 @@
     <!--buttons function-->
 
     <div id="sigin-popup" class="register-in-outer">
-        
-        <button id="cut-close">
-            close
-        </button>
+        <div class="signin">
+
+            <div class="top">
+                <button id="cut-close">
+                    <i class="ri-close-large-fill"></i>
+                </button>
+            </div>
+
+            <div class="body-login">
+                <form>
+                    <div class="login-form-card">
+                        <label for="email">Email :</label>
+                        <input type="text" name="email" id="email" placeholder="Enter Email ID or Phone Number"> 
+                    </div>
+                    <div class="login-form-card">
+                        <label for="pass">Password :</label>
+                        <input type="password" name="pss" id="pass" placeholder="Enter Password">
+                    </div>
+                    <div class="login-form-card">
+                        <button>
+                            Login
+                            <i class="ri-login-circle-line"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
 
