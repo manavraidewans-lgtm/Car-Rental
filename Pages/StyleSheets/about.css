@@ -13,6 +13,7 @@
 
 body {
     background-color: #f9e7d6;
+    padding-top:5rem;
 }
 
 
@@ -21,15 +22,17 @@ body {
 #navbar {
     width: 100%;
     height: 5rem;
-    /* background-color: #f6eadc; */
-    background: transparent;
+    background-color: #f6eadc;
+    /* background: transparent; */
     border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
-    overflow: hidden;
+    left: 0;
+    z-index: 99999;
+    /* overflow: hidden; */
 }
 
 .navbar-logo {
@@ -154,16 +157,122 @@ body {
 
 
 
-.content {
-    height: 80vh;
+
+
+
+#hero{
+    min-height: calc(70vh - 5rem);
+    /* margin-top: 5rem; */
     width: 100%;
-    background-color: #f9e7d6;
+    /* background:#1eab51; */
+    background-image: url(../../Assets/about\ -back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about-hero {
+    height: 55vh;
+    width: 90%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content:space-around;
+    align-items: end;
+    /* background-color: #f6eadc; */
+}
+
+.about-hero-left {
+    height: 100%;
+    width: 30%;
+    /* background-color: ivory; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.hero-left-first {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.hero-left-first button {
+    padding: 0.4rem 0.6rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #f4d7bd;
+}
+
+.hero-about-second {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-about-third {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero-about-third button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #5e605f;
+    color: #f9e7d6;
+    font-weight: 800;
+}
+
+.hero-about-third button i {
+    font-size: 1.2rem;
+}
+
+
+
+.about-hero-right {
+    height: 60%;
+    width: 55%;
+    /* background-color: rgb(56, 200, 12); */
+    background-image: url(../../Assets/Maserati.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 /*          FOOTER          */
 #footer {
+    margin-top: 8rem;
     margin-bottom: 1rem;
     height: 25vh;
     width: 100%;
